@@ -25,33 +25,27 @@
 
 <body>
 <!-- nav, link nav pages -->
-<section>
+<section class="wrapper">
   <header class="row">
-    <div class="col-1-3">
-      <figure><img src="img/twin-finch-logo.png" alt="Twin Finch Roastery"></figure>
-    </div>
-    <div class="col-1-3">
-      <nav>
+      <figure class="col-1-3"><img src="img/twin-finch-logo.png" alt="Twin Finch Roastery"></figure>
+    <nav class="col-1-3">
         <ul>
           <li> <a href="#hero">About</a> </li>
           <li> <a href="#products">Products</a> </li>
           <li> <a href="#contact">Contact</a> </li>
         </ul>
       </nav>
-      </div>
       <!-- social media (facebook, twitter, google plus) -->
-      <div class="col-1-3 media">
-      <ul>
+      <ul class="col-1-3 media">
         <li> <a href="http://www.facebook.com" target="_blank"></a> </li>
         <li> <a href="http://www.twitter.com" target="_blank"></a> </li>
         <li> <a href="http://plus.google.com" target="_blank"></a> </li>
       </ul>
-    </div>
     </header>
 </section>
 
 <!-- hero -->
-<section class="col-1-1" id="hero">
+<section class="photo-bg col-1-1" id="hero">
     <header class="wrapper">
       <h1><span id="h1-txt">twin finch</span><br><span id="roastery"> Roastery</span><br>an authentic microroastery; small, dedicated, and highly focused on quality. We have a constantly evolving, hand picked selection of fine coffee origins and delicious blends engineered to help you brew a cafequality cup at home.</h1>
     </header>
@@ -60,61 +54,56 @@
 
 
 <!-- roasts and house blend --> 
+<section id="roasts">
 <div class="wrapper">
-    <section id="roasts">
       <header class="col-1-1">
         <h2>Roasts</h2>
       </header>
       	<p>Our coffee is roasted in a hot air, refractory lined roaster with an extraordinary level of control. The significance of relying on a high volume of hot air to roast coffee beans can't be understated. Most small coffee roasters use a single stage burner which offers virtually no control during the roasting process. The refractory significantly reduces hot spots which can damage coffee beans and produces a much more even roasting environment.</p>
       <div class="row">
-        <div class="col-1-3">
-			<figure><img src="img/house-blend.jpg" alt="Twin Finch House Blend"></figure>
-      </div>
+        <img class="col-1-3" src="img/house-blend.jpg" alt="Twin Finch House Blend">
       <div class="col-2-3">
       	<header>
           <h3>Finch House Blend</h3>
         </header>
         <!-- no span tags -->
               <p class="type">Medium</p>
-              <p class="location">Cajamarca & Moyobamba Regions, Peru</p>
+              <p class="location">Cajamarca &amp; Moyobamba Regions, Peru</p>
               <p class="description">Hint of citrus, complemented by flavors of dark chocolate, peanut and light pepper notes.</p>
               <p class="price">1lb $17.95</p>
-                  <header>
-                  	<blockquote>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” ­ Coffee Review</blockquote>
-                  </header>
-                    <a href="#_blank">Buy Now</a>
+                  	<blockquote>
+                    	<p>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” ­ Coffee Review</p>
+                    </blockquote>
+                    <a href="#">Buy Now</a>
         </div>
       </div>
-    </section>
-</div>      	
-                      
+</div>      	                   
 <!-- review -->
 <!-- insert photo -->
 <section class="photo-bg">
-	<div class="wrapper col-1-1">
-		<header>
+	<header class="wrapper col-1-1">
         	<blockquote>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” ­ Coffee Review</blockquote>       
-		</header>
-    </div>
+	</header>
 </section>
 
 <!-- 4 roasts -->      
-<section class="wrapper">
-	<div class="row">  
-    	<div class="col-1-4">
-        <div id="seasonal">   
+<section class="wrapper">  
+	<div class="row">
+        <div class="col-2-5" id="seasonal">   
             <header>
               <h4>Evening Oak</h4>
             </header>              
                   <p class="type">Medium/Dark</p>
                   <p class="location">Eastern Java, Indonesia</p>
-                  <p class="description">Our featured roast of the season. Pungently rich and complex with hints of night-blooming flowers and coriander in aroma and cup.</p>
+                  <p class="description">Our featured roast of the season.<br> 
+                  Pungently rich and complex with hints of night-blooming flowers and coriander in aroma and cup.</p>
                   <p class="price">1lb $19.95</p>
-                    <a href="#_blank">Buy Now</a>
+                    <a href="#">Buy Now</a>
 		</div>
-        </div>
+    </div>
+</section>
        
-       <div class="col-1-4">   
+       <section class="col-1-5">   
             <header>
               <h4>Sunrise</h4>
             </header>              
@@ -122,9 +111,9 @@
                   <p class="location">La Chiapas, Mexico</p>
                   <p class="description">Light, fruity acidity which complements its fully nutty body and unique spicy tones.</p>
                   <p class="price">1lb $17.95</p>
-                    <a href="#_blank">Buy Now</a>
-		</div>
-		<div class="col-1-4">   
+                    <a href="#">Buy Now</a>
+		</section>
+		<section class="col-1-5">   
             <header>
               <h4>Midnight</h4>
             </header>              
@@ -132,29 +121,26 @@
                   <p class="location">Latin America</p>
                   <p class="description">Roasted into second crack for a big, bold and dark cup. Beans display oil. </p>
                   <p class="price">1lb $17.95</p>
-                    <a href="#_blank">Buy Now</a>
-		</div>       
-		<div class="col-1-4">   
+                    <a href="#">Buy Now</a>
+		</section>       
+		<section class="col-1-5">   
             <header>
               <h4>Espresso</h4>
             </header>  
-            	<p class="type"><br> </p>            
+				<br>            
                   <p class="location">Latin America, Africa, Indonesia</p>
                   <p class="description">Clean, a little roasty, sumptuous crema, unfussy, delicious.</p>
                   <p class="price">1lb $19.95</p>
-                    <a href="#_blank">Buy Now</a>
-		</div>       
-	</div>
-    <div class="row col-1-1">
-    	<p>Online orders usually ship quickly and arrive within three business days. We only ship the freshest coffee and your satisfaction is guaranteed. Our rotating, featured coffees are roasted on a more limited basis 
-	and your order may be held until the next time a batch hits the roaster. We only ship whole bean, but will grind for you in­store per request.</p>
-    </div>   
+                    <a href="#">Buy Now</a>
+		</section>   
+    <p class="col-1-1">Online orders usually ship quickly and arrive within three business days. We only ship the freshest coffee and your satisfaction is guaranteed. Our rotating, featured coffees are roasted on a more limited basis 
+	and your order may be held until the next time a batch hits the roaster. We only ship whole bean, but will grind for you in­store per request.
+    </p>   
 </section>
 
 <!-- subscribe --> 
 <section class="photo-bg">
-  <div class="wrapper">
-    <div class="row col-1-1">
+  <div class="wrapper row col-1-1">
         <!--form -->
         <form>
 			<label>Subscribe to Our E-Newsletter
@@ -162,16 +148,14 @@
             </label>
           	<a href="#">send</a>
        	</form>
-    </div>
   </div>
 </section>
 
 <!-- contact us --> 
 <section class="wrapper">
-    <div class="row">
-      <section id="contact">
+    <div class="row" id="contact">
         <header class="col-1-1">
-          <h3>Contact Us</h3>
+          <h2>Contact Us</h2>
         </header>
         <!--contact form -->
         <form>
@@ -189,18 +173,17 @@
               </label>
 			</div>
             <div class="col-1-2">
-              <p>message
+              <label>message
                 <textarea rows="8" cols="50"></textarea>
-              </p>
+              </label>
           		<a href="#">send</a>
           	</div>
         </form>
-      </section>
   	</div>
 </section>
         
 <!-- map -->
-<section class="col-1-1">
+<section class="wrapper col-1-1">
     <p>You can buy from us directly at our Portland storefront located at 457 NW Market Street.</p>
         <div class="row">
             <div id="map" class="col-1-1">
@@ -211,27 +194,23 @@
 
 <!-- footer -->
 <footer>
-<section class="row">
-    <div class="col-1-3">
-      <figure><img src="img/twin-finch-logo.png" alt="Twin Finch Roastery"></figure>
-    </div>
-    <div class="col-1-3">
-      <nav>
+<section class="wrapper row">
+	<figure class="col-1-3">
+    	<img src="img/twin-finch-logo.png" alt="Twin Finch Roastery">
+   	</figure>
+    <nav class="col-1-3">
         <ul>
           <li> <a href="#hero">About</a> </li>
           <li> <a href="#products">Products</a> </li>
           <li> <a href="#contact">Contact</a> </li>
         </ul>
-      </nav>
-      </div>
+     </nav>
       <!-- social media (facebook, twitter, google plus) -->
-      <div class="col-1-3 media">
-      <ul>
+     <ul class="col-1-3 media">
         <li> <a href="http://www.facebook.com" target="_blank"></a> </li>
         <li> <a href="http://www.twitter.com" target="_blank"></a> </li>
         <li> <a href="http://plus.google.com" target="_blank"></a> </li>
-      </ul>
-    </div>
+     </ul>
 </section>
 </footer>
 

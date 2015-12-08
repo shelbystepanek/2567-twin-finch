@@ -72,6 +72,7 @@ h3 {
 
 blockquote {
 	font-size: 1.25rem;
+	margin-top: -1rem;
 }
 
 h4 {
@@ -93,6 +94,10 @@ a {
 html {
 	font-family: 'Lato', sans-serif;
 	text-align:center;
+}
+
+.type, .location, .description {
+	margin-top: -.5rem;
 }
 
 .type {
@@ -122,7 +127,28 @@ html {
 /*--------------------------------------------------------------
 1.4 - Forms
 -------------------------------------------------------------- */
+input, textarea {
+	background-color:#826756;
+}
 
+
+
+form {
+	width:20rem;;
+	text-align:left;
+	display:block;
+	text-transform:uppercase;
+	margin-left:11rem;
+	border: 0;
+}
+
+input, textarea , label {
+	display:block;
+}
+
+input:focus, textarea:focus, .btn:focus {
+	outline: none;
+}
 /*--------------------------------------------------------------
 1.5 - Lists
 -------------------------------------------------------------- */
@@ -162,15 +188,13 @@ nav li {
 /*--------------------------------------------------------------
 3.2 - Hero
 -------------------------------------------------------------- */
-#hero {
+.photo-bg {
 	padding:5rem;
 	background: url(../img/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
 }
 /*--------------------------------------------------------------
 4.0 - Media
@@ -200,7 +224,6 @@ nav li {
 #map {
 	height:20rem;
 }
-	
 /*--------------------------------------------------------------
 5.0 - Utility
 -------------------------------------------------------------- */
