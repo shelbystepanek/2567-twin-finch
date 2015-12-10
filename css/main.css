@@ -101,7 +101,7 @@ html {
 	margin-top: -.5rem;
 }
 
-.type {
+.price, .type {
 	font-weight:900;
 }
 
@@ -114,7 +114,6 @@ html {
 }
 
 .price {
-	font-weight:900;
 	font-size:1.5rem;
 }
 
@@ -142,13 +141,9 @@ input, textarea {
 	background-color:#826756;
 }
 
-form {
-	display:inline;
-}
-
 #contact form {
 	margin:0 auto;
-	width:32rem;
+	width:36rem;
 	text-align:left;
 	display:block;
 	text-transform:uppercase;
@@ -156,8 +151,8 @@ form {
 }
 
 input, textarea , label {
-	width:15rem;
-	font-size:1.25rem;
+	width: 17rem;
+    font-size: .75rem;
 }
 
 input:focus, textarea:focus, .btn:focus {
@@ -166,7 +161,7 @@ input:focus, textarea:focus, .btn:focus {
 /*--------------------------------------------------------------
 1.5 - Lists
 -------------------------------------------------------------- */
-li {
+form, li {
 	display:inline;
 }
 /*--------------------------------------------------------------
@@ -256,11 +251,7 @@ img {
 /*--------------------------------------------------------------
 5.2 - Text Colors
 -------------------------------------------------------------- */
-a:hover {
-	color:#826756;
-}
-
-#seasonal {
+a:hover, #seasonal {
 	color:#826756;
 }
 
@@ -439,7 +430,7 @@ img {
 }
 
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:768px) {
 	.wrapper {
 		width: 95%;
 	}
@@ -477,6 +468,7 @@ img {
 	.col-7-12,
 	.col-5-12 {
 		width:100%;
+		margin:0 auto;
 	}
 	
 	#h1-txt {
@@ -490,17 +482,10 @@ img {
 	
 	h1 {
 		font-size: 1rem;
-		margin: 0 auto;
 	}
 	
-	h2 {
-		font-size: 4rem;
-		font-weight: 300;
-		margin-bottom: -1.25rem;
-	}
-
-	blockquote {
-		font-size: 1rem;
+	h3 {
+		margin-top:-20%;
 	}
 	
 	.photo-bg {
@@ -508,7 +493,14 @@ img {
 	}
 	
 	#contact form {
-		display:block;
-		margin:0 auto;
+		width:44%;
+	}
+	
+	textarea {
+		margin-left:-3%;
+	}
+	
+	nav li {
+		padding:4.5rem;
 	}
 }
