@@ -87,7 +87,6 @@ h4 {
 1.2 - Body Copy
 -------------------------------------------------------------- */
 a {
-	font-size:.75rem;
 	text-decoration:none;
 }
 
@@ -109,7 +108,7 @@ html {
 	font-weight: 100;
 }
 
-.description {
+a, .description, input, textarea , label {
 	font-size:.75rem;
 }
 
@@ -152,7 +151,6 @@ input, textarea {
 
 input, textarea , label {
 	width: 17rem;
-    font-size: .75rem;
 }
 
 input:focus, textarea:focus, .btn:focus {
@@ -200,10 +198,10 @@ nav li {
 .photo-bg, #hero {
 	padding:5rem;
 	background: url(../img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #hero {
